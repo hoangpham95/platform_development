@@ -317,7 +317,7 @@ public class AuthenticatorActivity extends AccountAuthenticatorActivity {
 
         @Override
         protected void onCancelled() {
-            // If the action was canceled (by the user clicking the cancel
+            // If the action was cancelled (by the user clicking the cancel
             // button in the progress dialog), then call back into the
             // activity to let it know.
             onAuthenticationCancel();
